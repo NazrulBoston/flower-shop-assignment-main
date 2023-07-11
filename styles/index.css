@@ -236,18 +236,27 @@ div .flower-para {
 }
 
 /* instagram boxes */
+.box-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f6f7;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-
-.images{
+.box-container {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-top: 24px;
-    gap: 10px ;
+    gap: 10px;
+   
+
 }
+
+
 
 
 /* search section style */
