@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Banner style  */
+/* Banner section style  */
 .banner-containar {
     display: flex;
     height: 100vh;
@@ -85,7 +85,7 @@ body {
 }
 
 
-/* flower tree style */
+/* flower tree section style */
 
 
 .flower-trees {
@@ -143,12 +143,31 @@ body {
 
 }
 
-div .flower-para{
-margin-top: 32px;
-color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+div .flower-para {
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+
+/* Delivery section style */
+
+.deliver-box {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 86px;
+    padding-left: 86px;
+    padding-right: 86px;
+    width: 800px;
+    height: 200px;
+    margin: 240px 415px 0 240px ;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
 }
