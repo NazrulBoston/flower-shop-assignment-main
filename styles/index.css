@@ -159,15 +159,51 @@ div .flower-para {
 
 .deliver-box {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: center;
     padding-top: 86px;
     padding-left: 86px;
     padding-right: 86px;
     width: 800px;
     height: 200px;
-    margin: 240px 415px 0 240px ;
+    margin: 240px 415px 128px 240px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 
+}
+
+/* Deal and sale style  */
+
+.deal-sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f2e5e8;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 429px 100px 193px;
+    gap: 100px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deal-para {
+    width: 594px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#off {
+    color: #E55473;
 }
